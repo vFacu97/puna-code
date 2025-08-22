@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/puna-code/", // Agrega esta línea
+  base: "/", // Agrega esta línea
 }));
