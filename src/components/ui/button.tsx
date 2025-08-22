@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Puna Code variants
+        cta: "bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg hover:shadow-xl transition-all duration-300 font-semibold",
+        hero: "bg-gradient-to-r from-accent to-sky-blue text-white hover:scale-[1.02] transition-all duration-300 shadow-lg font-semibold",
+        terracotta: "border-2 border-terracotta text-terracotta bg-transparent hover:bg-terracotta hover:text-white transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",

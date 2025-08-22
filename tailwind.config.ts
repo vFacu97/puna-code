@@ -52,6 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Puna-specific colors
+				cactus: 'hsl(var(--cactus))',
+				terracotta: 'hsl(var(--terracotta))',
+				'sun-yellow': 'hsl(var(--sun-yellow))',
+				'sky-blue': 'hsl(var(--sky-blue))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +67,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-puna': 'var(--gradient-puna)',
+				'gradient-mountain': 'var(--gradient-mountain)',
+				'gradient-hero': 'var(--gradient-hero)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
